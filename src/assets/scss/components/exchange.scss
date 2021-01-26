@@ -1,0 +1,12 @@
+.exchange-inform {
+padding: 16px 0;
+}
+.exchange-button {
+  color: #ffffff;
+  background: #00B956;
+  border: 1px solid #00B956;
+  padding: 8px 16px;
+  &:hover, &:active {
+    color: #ffffff
+  }
+}

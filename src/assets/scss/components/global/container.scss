@@ -1,0 +1,16 @@
+@use "../../utils/utils" as *;
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $container-padding-x;
+  padding-left: $container-padding-x;
+  width: 100%;
+
+
+  @each $breakpoints, $max-width in $container-max-widths {
+    @media (min-width: $breakpoints) {
+      max-width: $max-width;
+    }
+  }
+}

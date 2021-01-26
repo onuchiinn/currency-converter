@@ -1,0 +1,19 @@
+.global {
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 8px 16px;
+    border: 1px solid #D8D8D8;
+    width: 100%;
+    &:hover, &:active {
+      color: #34AAF2
+    }
+  }
+}
